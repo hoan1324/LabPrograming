@@ -1,0 +1,29 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+.error {
+    margin-left: 3px;
+    color: red;
+}
+.alert {
+    /* display: none; */
+    z-index: 1000;
+    width: 50%;
+    text-align: center;
+    right:25%
+}

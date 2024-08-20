@@ -1,0 +1,98 @@
+﻿@using CommonHelper.Constant
+@model LAB1.Models.Student
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/MyLayoutHelper.cshtml";
+}
+
+<div class="d-flex justify-content-between align-items-center">
+    <h1>Create</h1>
+
+    <a asp-action="Index" class="link-primary text-decoration-none">Back to List</a>
+</div>
+
+<hr />
+<div class="w-100">
+    <div >
+        <form asp-action="Create" id="create-student-form" enctype="multipart/form-data">
+            <div class="form-group mb-3 ">
+                <label for="AvatarFile" class="control-label">Avatar</label>
+                <input name="AvatarFile" type="file" class="form-control"  />
+            </div>
+            <div class="form-group mb-3 ">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" placeholder="Vui lòng nhập họ và tên"/>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" placeholder="Vui lòng nhập Email"/>
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" class="form-control" placeholder="Vui lòng nhập Mật khẩu" />
+            </div>
+            <div class="form-group mb-3 d-flex flex-column">
+                <label asp-for="Branch" class="control-label">Ngành</label>
+                <select asp-for="Branch" class="btn border text-start">
+                   
+                    @if (ViewBag.AllBranches!=null)
+                            {
+                        @foreach (var item in ViewBag.AllBranches)
+                        {
+                            <option value="@item">@BranchConstant.TransformBranch(item)</option>
+                        }
+                    }
+                </select>
+            </div>
+            <div class="form-group mb-3 d-flex">
+                <label for="Gender" class="control-label me-5">Ngày sinh</label>
+
+                @if (ViewBag.AllGenders != null)
+                {
+                    int i = 0;
+                    foreach (var item in ViewBag.AllGenders)
+                    {
+                        <div class="me-3">
+                            <label for="">@GenderConstant.TransformGender(item)</label>
+                            @if (i == 0)
+                            {
+                                <input type="radio" asp-for="Gender" value="@item" checked />
+                            }
+                            else
+                            {
+                                <input type="radio" asp-for="Gender" value="@item" />
+
+                            }
+
+                        </div>
+                        i++;
+                    }
+                }
+            </div>
+            <div class="form-group mb-3 form-check">
+                <label class="form-check-label">
+                    Chính quy
+                </label>
+                <input class="form-check-input" asp-for="IsRegular" />
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="Address" class="control-label">Địa chỉ</label>
+                <input asp-for="Address" class="form-control" />
+            </div>
+            <div class="form-group mb-3">
+                <label asp-for="DateOfBorth" class="control-label">Ngày sinh</label>
+                <input type="date" asp-for="DateOfBorth" class="form-control" />
+            </div>
+            <div class="form-group mb-3">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    <script src="~/js/create-student.js"></script>
+}

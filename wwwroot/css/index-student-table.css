@@ -1,0 +1,15 @@
+.body-content{
+    overflow:auto;
+}
+.table{
+    overflow-x:auto;
+   
+}
+.table tbody tr:nth-child(2n) {
+    background-color: #69696957;
+}
+@media only screen and (max-width:996px) {
+    .table {
+        width: 940px
+    }
+}

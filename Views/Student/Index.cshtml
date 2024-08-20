@@ -1,0 +1,90 @@
+﻿@using CommonHelper.Constant
+@model IEnumerable<LAB1.Models.Student>
+
+@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Views/Shared/MyLayoutHelper.cshtml";
+}
+
+
+<link href="~/css/index-student-table.css" rel="stylesheet" asp-append-version="true" />
+
+
+<div class="body-content">
+	<p>
+		<a class=" btn btn-primary" asp-action="Create">Create New</a>
+	</p>
+	<table class="table">
+		<thead>
+			<tr>
+				<th>
+					Mã
+				</th>
+				@* <th>
+					Avatar
+				</th> *@
+				<th>
+					Họ tên
+				</th>
+				<th>
+					Ngày sinh
+				</th>
+				<th>
+					Ngành
+				</th>
+				<th>
+					Giới tính
+				</th>
+				<th>
+					Hệ DT
+				</th>
+				<th>
+					Địa chỉ
+				</th>
+				<th>
+					Email
+				</th>
+
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var item in Model)
+			{
+				<tr>
+					<td>
+						@item.Id
+					</td>
+					@* <td>
+						@if (item.Avatar != null && item.Avatar.Length > 0 )
+						{
+							var avatarUrl = "data:image/png;base64," + Convert.ToBase64String(item.Avatar);
+							<img src="@avatarUrl" alt=" avatar" />
+						}
+					</td> *@
+					<td>
+						@item.Name
+					</td>
+					<td>
+						@item.DateOfBorth.ToString("dd/MM/yyyy")
+					</td>
+					<td>
+						@BranchConstant.TransformBranch(item.Branch ?? null)
+					</td>
+					<td>
+						@GenderConstant.TransformGender(item.Gender ?? null)
+					</td>
+					<td>
+						@RegularConstant.TransformRegular(item.IsRegular)
+					</td>
+					<td>
+						@item.Address
+					</td>
+					<td>
+						@item.Email
+					</td>
+
+				</tr>
+			}
+		</tbody>
+	</table>
+</div>
