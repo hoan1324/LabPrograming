@@ -212,3 +212,4 @@ C:\Users\admin\Downloads\LaptrinhWeb\LAB1\obj\Debug\net6.0\refint\LAB1.dll
 C:\Users\admin\Downloads\LaptrinhWeb\LAB1\obj\Debug\net6.0\LAB1.pdb
 C:\Users\admin\Downloads\LaptrinhWeb\LAB1\obj\Debug\net6.0\LAB1.genruntimeconfig.cache
 C:\Users\admin\Downloads\LaptrinhWeb\LAB1\obj\Debug\net6.0\ref\LAB1.dll
+C:\Users\admin\Downloads\LaptrinhWeb\lab1\obj\Debug\net6.0\LAB1.sourcelink.json
