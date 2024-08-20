@@ -70,20 +70,25 @@ namespace LAB1.Controllers
 		[HttpPost]
 		public async Task<IActionResult> Create(Student student,IFormFile AvatarFile)
 		{
-            if (AvatarFile != null)
-			{
-                if (AvatarFile != null && AvatarFile.Length > 0 && !ImageContentTypeConst.ContentTypes.Any(item => item == AvatarFile.ContentType))
+			if (ModelState.IsValid) {
+                if (AvatarFile != null)
                 {
-                    TempData["ErrorMessage"] = "File phải là ảnh";
-                    return View();
-                }
-                student.Avatar = await _uploadFile.UploadFile(AvatarFile);
+                    if (AvatarFile != null && AvatarFile.Length > 0 && !ImageContentTypeConst.ContentTypes.Any(item => item == AvatarFile.ContentType))
+                    {
+                        TempData["ErrorMessage"] = "File phải là ảnh";
+                        return View();
+                    }
+                    student.Avatar = await _uploadFile.UploadFile(AvatarFile);
 
+                }
+                student.Id = (_students.Last().Id) + 1;
+                _students.Add(student);
+                TempData["SuccessMessage"] = "Tạo mới thành công";
+                return View("Index", _students);
             }
-            student.Id=(_students.Last().Id)+1;
-			_students.Add(student);
-			TempData["SuccessMessage"] = "Tạo mới thành công";
-			return View("Index",_students);
-		}
+            ViewBag.AllGenders = Enum.GetValues(typeof(Gender)).Cast<Gender>().ToList();
+            ViewBag.AllBranches = Enum.GetValues(typeof(Branch)).Cast<Branch>().ToList();
+            return View();
+        }
 	}
 }
