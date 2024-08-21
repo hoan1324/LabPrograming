@@ -1,5 +1,7 @@
+using LAB1.Data;
 using LAB1.Models;
 using LAB1.Models.Interface;
+using Microsoft.EntityFrameworkCore;
 
 namespace LAB1
 {
@@ -10,11 +12,19 @@ namespace LAB1
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+            builder.Services.AddDbContext<SchoolContext>(options=>options.UseSqlServer(builder.Configuration.GetConnectionString("SchoolContext")));
+
             builder.Services.AddControllersWithViews();
+
             builder.Services.AddScoped<IUploadFileService, UploadFileService>();
 
 
             var app = builder.Build();
+            using (var scope=app.Services.CreateScope())
+            {
+                var services=scope.ServiceProvider;
+                DbInitalizer.Initialize(services);
+            }
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())

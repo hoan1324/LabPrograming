@@ -1,44 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|c:\\users\\admin\\downloads\\laptrinhweb\\lab1\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|solutionrelative:views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|c:\\users\\admin\\downloads\\laptrinhweb\\lab1\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|c:\\users\\admin\\downloads\\laptrinhweb\\lab1\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|c:\\users\\admin\\downloads\\laptrinhweb\\lab1\\models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|solutionrelative:models\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|c:\\users\\admin\\downloads\\laptrinhweb\\lab1\\viewcomponents\\renderviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|solutionrelative:viewcomponents\\renderviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|c:\\users\\admin\\downloads\\laptrinhweb\\lab1\\models\\uploadfileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|solutionrelative:models\\uploadfileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|c:\\users\\admin\\downloads\\laptrinhweb\\lab1\\models\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|solutionrelative:models\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|c:\\users\\admin\\downloads\\laptrinhweb\\lab1\\views\\shared\\components\\render\\renderleftmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|solutionrelative:views\\shared\\components\\render\\renderleftmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|c:\\users\\admin\\downloads\\laptrinhweb\\lab1\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|solutionrelative:views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -46,128 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Gender.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\Models\\Gender.cs",
-              "RelativeDocumentMoniker": "Models\\Gender.cs",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\Models\\Gender.cs",
-              "RelativeToolTip": "Models\\Gender.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T14:42:32.029Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UploadFileService.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\Models\\UploadFileService.cs",
-              "RelativeDocumentMoniker": "Models\\UploadFileService.cs",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\Models\\UploadFileService.cs",
-              "RelativeToolTip": "Models\\UploadFileService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T14:42:29.362Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RenderViewComponent.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\ViewComponents\\RenderViewComponent.cs",
-              "RelativeDocumentMoniker": "ViewComponents\\RenderViewComponent.cs",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\ViewComponents\\RenderViewComponent.cs",
-              "RelativeToolTip": "ViewComponents\\RenderViewComponent.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAYwAwAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T14:13:29.07Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MenuItem.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\Models\\MenuItem.cs",
-              "RelativeDocumentMoniker": "Models\\MenuItem.cs",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\Models\\MenuItem.cs",
-              "RelativeToolTip": "Models\\MenuItem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T14:12:54.081Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RenderLeftMenu.cshtml",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\Views\\Shared\\Components\\Render\\RenderLeftMenu.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\Components\\Render\\RenderLeftMenu.cshtml",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\Views\\Shared\\Components\\Render\\RenderLeftMenu.cshtml",
-              "RelativeToolTip": "Views\\Shared\\Components\\Render\\RenderLeftMenu.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-20T14:12:44.452Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "Controllers\\StudentController.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAkwE4AAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T13:52:17.958Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\Views\\Student\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Student\\Create.cshtml",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\Views\\Student\\Create.cshtml",
-              "RelativeToolTip": "Views\\Student\\Create.cshtml",
-              "ViewState": "AQIAAF0AAAAAAAAAAADwv1QAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-20T14:00:42.86Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\Models\\Student.cs",
-              "RelativeDocumentMoniker": "Models\\Student.cs",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\Models\\Student.cs",
-              "RelativeToolTip": "Models\\Student.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-20T13:52:36.329Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\Views\\Student\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Student\\Index.cshtml",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\Views\\Student\\Index.cshtml",
-              "RelativeToolTip": "Views\\Student\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-20T14:00:40.701Z",
-              "EditorCaption": ""
             }
           ]
         }
