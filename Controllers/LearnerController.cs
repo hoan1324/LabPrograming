@@ -15,11 +15,17 @@ namespace MyWebApp.Controllers
             db = context;
         }
         
-        public IActionResult Index()
+        public IActionResult Index(int? mid)
         {
-           
-           var learner=db.Learners.Include(m=>m.Major).ToList();
-                
+            if (mid == null)
+            {
+                var learners = db.Learners
+                    .Include(m => m.Major).ToList();
+                return View(learners);
+            }
+            var learner=db.Learners
+                .Where(l=>l.MajorID==mid)
+                .Include(m=>m.Major).ToList();
             return View(learner);
         }
         

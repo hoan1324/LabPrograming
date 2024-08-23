@@ -1,0 +1,10 @@
+﻿@model IEnumerable<Models.Entity.Major>
+<ul class="nav">
+   
+    @foreach (var m in Model)
+    {
+        <li class="nav-item">
+            <a asp-action="Index" asp-controller="Learner" asp-route-mid="@m.MajorId" class="nav-link">@m.MajorName</a>
+        </li>
+    }
+</ul>
