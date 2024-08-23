@@ -42,3 +42,18 @@
     </div>
     <a asp-action="Create" class="btn btn-primary">Create New Student</a>
 </div>
+@section Scripts {
+    <script>
+        $("li.nav-item").on("click", function (e) {
+            var id = $(this).attr("id");
+            $.ajax({
+                url: "Learner/LearnerByMajorID",
+                data: {mid:id},
+                success: function (response) {
+                    $("div#content").html(response);
+                }
+            });
+        });
+       
+    </script>
+}

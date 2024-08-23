@@ -28,11 +28,18 @@ namespace MyWebApp.Controllers
                 .Include(m=>m.Major).ToList();
             return View(learner);
         }
-        
-     
+
+        public IActionResult LearnerByMajorID(int mid)
+        {
+            var learners = db.Learners
+                .Where(l => l.MajorID == mid)
+                .Include(m => m.Major).ToList();
+            return PartialView("LearnerTable", learners);
+        }
 
 
-       
+
+
         public IActionResult Create()
         {
             

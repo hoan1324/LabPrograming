@@ -3,8 +3,8 @@
    
     @foreach (var m in Model)
     {
-        <li class="nav-item">
-            <a asp-action="Index" asp-controller="Learner" asp-route-mid="@m.MajorId" class="nav-link">@m.MajorName</a>
+        <li class="nav-item" id="@m.MajorId">
+            <a class="nav-link">@m.MajorName</a>
         </li>
     }
 </ul>
