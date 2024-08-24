@@ -11,16 +11,20 @@
       "RelativeMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|solutionrelative:views\\learner\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|c:\\users\\admin\\downloads\\laptrinhweb\\lab1\\views\\learner\\learnertable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|solutionrelative:views\\learner\\learnertable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|c:\\users\\admin\\downloads\\laptrinhweb\\lab1\\views\\shared\\mylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|solutionrelative:views\\shared\\mylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|c:\\users\\admin\\downloads\\laptrinhweb\\lab1\\views\\shared\\mylayouthelper.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|solutionrelative:views\\shared\\mylayouthelper.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|c:\\users\\admin\\downloads\\laptrinhweb\\lab1\\views\\shared\\mylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|solutionrelative:views\\shared\\mylayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|c:\\users\\admin\\downloads\\laptrinhweb\\lab1\\views\\learner\\learnertable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|solutionrelative:views\\learner\\learnertable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|c:\\users\\admin\\downloads\\laptrinhweb\\lab1\\models\\entity\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|solutionrelative:models\\entity\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|c:\\users\\admin\\downloads\\laptrinhweb\\lab1\\views\\shared\\components\\major\\rendermajor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -34,11 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Enrollment.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\Models\\Entity\\Enrollment.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\Enrollment.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\Models\\Entity\\Enrollment.cs",
+              "RelativeToolTip": "Models\\Entity\\Enrollment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T14:06:34.678Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -48,21 +65,23 @@
               "RelativeDocumentMoniker": "Views\\Shared\\MyLayoutHelper.cshtml",
               "ToolTip": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\Views\\Shared\\MyLayoutHelper.cshtml",
               "RelativeToolTip": "Views\\Shared\\MyLayoutHelper.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAACgAAAAuAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACgAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-23T02:30:35.896Z"
+              "WhenOpened": "2024-08-23T02:30:35.896Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "MyLayout.cshtml",
               "DocumentMoniker": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\Views\\Shared\\MyLayout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\MyLayout.cshtml",
               "ToolTip": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\Views\\Shared\\MyLayout.cshtml",
               "RelativeToolTip": "Views\\Shared\\MyLayout.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-23T02:03:11.06Z"
+              "WhenOpened": "2024-08-23T02:03:11.06Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -72,20 +91,20 @@
               "RelativeDocumentMoniker": "Views\\Learner\\Index.cshtml",
               "ToolTip": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\Views\\Learner\\Index.cshtml",
               "RelativeToolTip": "Views\\Learner\\Index.cshtml",
-              "ViewState": "AQIAACUAAAAAAAAAAAAcwDEAAAAaAAAA",
+              "ViewState": "AQIAAEsAAAAAAAAAAADwv10AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-23T01:57:50.518Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "LearnerTable.cshtml",
               "DocumentMoniker": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\Views\\Learner\\LearnerTable.cshtml",
               "RelativeDocumentMoniker": "Views\\Learner\\LearnerTable.cshtml",
               "ToolTip": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\Views\\Learner\\LearnerTable.cshtml",
               "RelativeToolTip": "Views\\Learner\\LearnerTable.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAbAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-23T01:55:58.196Z",
               "EditorCaption": ""
@@ -98,14 +117,14 @@
               "RelativeDocumentMoniker": "Controllers\\LearnerController.cs",
               "ToolTip": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\Controllers\\LearnerController.cs",
               "RelativeToolTip": "Controllers\\LearnerController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAswCcAAAAAAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAvwCUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-23T01:50:08.549Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "RenderMajor.cshtml",
               "DocumentMoniker": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\Views\\Shared\\Components\\Major\\RenderMajor.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Components\\Major\\RenderMajor.cshtml",

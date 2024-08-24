@@ -8,6 +8,15 @@
 <div class="ms-2 mx-2">
     <h1>Learner List</h1>
     @await Component.InvokeAsync("Major")
+    <form id="search-form" class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
+        <div class="input-group">
+            <input id="keyword" class="form-control" name="keyword"
+                   type="text" placeholder="Search learner" />
+            <button id="btnSearch" class="btn btn-primary" type="submit">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+    </form>
     <div id="content">
         <table class="table table-striped">
             <thead>
@@ -38,17 +47,54 @@
             </tbody>
 
         </table>
-       
+        <ul class="pagination">
+            @for (int i = 1; i <= ViewBag.pageNum; i++)
+            {
+                <li class="page-item" page="@i"
+                @(ViewBag.mid != null ? "mid='ViewBag.mid'" : "")
+                @(ViewBag.keyword != null ? "keyword='@ViewBag.keyword'" : "")>
+                    <a class="page-link">@i</a>
+                </li>
+            }
+
+        </ul>
     </div>
     <a asp-action="Create" class="btn btn-primary">Create New Student</a>
 </div>
 @section Scripts {
     <script>
-        $("li.nav-item").on("click", function (e) {
-            var id = $(this).attr("id");
+        $('body').on('click', 'li.page-item', function (e) {
+            //do your javascript here..
+            var page = $(this).attr("page");
+            var mid = $(this).attr("mid");
+            var keyword = $(this).attr("keyword");
+            var data = { mid: mid, keyword: keyword, pageIndex: page };
             $.ajax({
-                url: "Learner/LearnerByMajorID",
-                data: {mid:id},
+                url: "Learner/LearnerFilter",
+                data: data,
+                success: function (response) {
+                    $("div#content").html(response);
+                }
+            });
+        });
+
+        $(".nav li").click(function (e) {
+            var id = $(this).attr("id");
+            var data = { mid: id };
+            $.ajax({
+                url: "Learner/LearnerFilter",
+                data: data,
+                success: function (response) {
+                    $("div#content").html(response);
+                }
+            });
+        });
+        $("#search-form").on("submit",function (e) {
+            var keyword = $("#keyword").val();
+            var data = { keyword: keyword };
+            $.ajax({
+                url: "Learner/LearnerFilter",
+                data: data,
                 success: function (response) {
                     $("div#content").html(response);
                 }
