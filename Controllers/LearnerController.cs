@@ -16,15 +16,20 @@ namespace MyWebApp.Controllers
         }
 
         private int pageSize = 3;
-        public IActionResult Index(int? mid)
+        public IActionResult Index(int? mid,string? keyword)
         {
-            var learners = (IQueryable<Learner>)db.Learners
-                    .Include(m => m.Major);
+            var learners = (IQueryable<Learner>)db.Learners;
+                    
             if (mid != null)
             {
-                learners = (IQueryable<Learner>)db.Learners
+                learners =learners
                     .Where(l => l.MajorID == mid)
                     .Include(m => m.Major);
+            }
+            if (keyword != null)
+            {
+                learners = learners.Where(item => item.FirstMidName != null && item.FirstMidName.ToLower()==keyword.ToLower());
+                ViewBag.keyword = keyword;
             }
             //tính số trang
             int pageNum = (int)Math.Ceiling(learners.Count() / (float)pageSize);
@@ -34,7 +39,7 @@ namespace MyWebApp.Controllers
             var result = learners.Take(pageSize).ToList();
             return View(result);
         }
-        public IActionResult LearnerFilter(int? mid, int? keyword, int? pageIndex)
+        public IActionResult LearnerFilter(int? mid, string? keyword, int? pageIndex)
         {
             
             var learners = (IQueryable<Learner>)db.Learners;
@@ -46,7 +51,7 @@ namespace MyWebApp.Controllers
             }
             if (keyword != null)
             {
-                learners = learners.Where(l => l.EnrollmentDate.Year == 2022);
+                learners = learners.Where(item=>item.FirstMidName !=null && item.FirstMidName.ToLower().Contains(keyword.ToLower()));
                 ViewBag.keyword = keyword;
             }
             //tính số trang
@@ -166,7 +171,7 @@ namespace MyWebApp.Controllers
 
         public IActionResult Delete(int id)
         {
-            if (id == null || db.Learners == null)
+            if (  db.Learners == null || id==null)
             {
                 return NotFound();
             }
