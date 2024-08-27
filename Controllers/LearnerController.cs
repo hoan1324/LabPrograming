@@ -28,7 +28,7 @@ namespace MyWebApp.Controllers
             }
             if (keyword != null)
             {
-                learners = learners.Where(item => item.FirstMidName != null && item.FirstMidName.ToLower()==keyword.ToLower());
+                learners = learners.Where(item => item.FirstMidName != null && item.FirstMidName.ToLower()==keyword.Trim().ToLower());
                 ViewBag.keyword = keyword;
             }
             //tính số trang

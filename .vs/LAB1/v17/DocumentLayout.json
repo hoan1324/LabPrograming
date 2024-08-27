@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|solutionrelative:controllers\\learnercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|c:\\users\\admin\\downloads\\laptrinhweb\\lab1\\viewcomponents\\renderviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|solutionrelative:viewcomponents\\renderviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|c:\\users\\admin\\downloads\\laptrinhweb\\lab1\\views\\learner\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|solutionrelative:views\\learner\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|c:\\users\\admin\\downloads\\laptrinhweb\\lab1\\commonhelper\\constant\\branchconstant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|solutionrelative:commonhelper\\constant\\branchconstant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|c:\\users\\admin\\downloads\\laptrinhweb\\lab1\\views\\learner\\learnertable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|solutionrelative:views\\learner\\learnertable.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|c:\\users\\admin\\downloads\\laptrinhweb\\lab1\\models\\entity\\learner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|solutionrelative:models\\entity\\learner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|c:\\users\\admin\\downloads\\laptrinhweb\\lab1\\viewcomponents\\majorviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40070EA9-28F4-45BF-B2D6-E6B85FF350A3}|LAB1.csproj|solutionrelative:viewcomponents\\majorviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,32 +33,36 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LearnerTable.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\Views\\Learner\\LearnerTable.cshtml",
+              "RelativeDocumentMoniker": "Views\\Learner\\LearnerTable.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\Views\\Learner\\LearnerTable.cshtml",
+              "RelativeToolTip": "Views\\Learner\\LearnerTable.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAjwCcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-27T02:49:16.698Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "RenderViewComponent.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\ViewComponents\\RenderViewComponent.cs",
-              "RelativeDocumentMoniker": "ViewComponents\\RenderViewComponent.cs",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\ViewComponents\\RenderViewComponent.cs",
-              "RelativeToolTip": "ViewComponents\\RenderViewComponent.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAcwBEAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T01:44:19.952Z"
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\Views\\Learner\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Learner\\Index.cshtml",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\Views\\Learner\\Index.cshtml",
+              "RelativeToolTip": "Views\\Learner\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-27T02:49:28.974Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Learner.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\Models\\Entity\\Learner.cs",
-              "RelativeDocumentMoniker": "Models\\Entity\\Learner.cs",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\Models\\Entity\\Learner.cs",
-              "RelativeToolTip": "Models\\Entity\\Learner.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T01:40:02.381Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
@@ -64,22 +72,36 @@
               "RelativeDocumentMoniker": "Controllers\\LearnerController.cs",
               "ToolTip": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\Controllers\\LearnerController.cs",
               "RelativeToolTip": "Controllers\\LearnerController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAA+wCIAAABQAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAB4AAAB5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T01:12:05.465Z",
+              "WhenOpened": "2024-08-27T02:50:55.926Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MajorViewComponent.cs",
-              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\ViewComponents\\MajorViewComponent.cs",
-              "RelativeDocumentMoniker": "ViewComponents\\MajorViewComponent.cs",
-              "ToolTip": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\ViewComponents\\MajorViewComponent.cs",
-              "RelativeToolTip": "ViewComponents\\MajorViewComponent.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAUwAoAAAAZAAAA",
+              "DocumentIndex": 2,
+              "Title": "BranchConstant.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\CommonHelper\\Constant\\BranchConstant.cs",
+              "RelativeDocumentMoniker": "CommonHelper\\Constant\\BranchConstant.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\CommonHelper\\Constant\\BranchConstant.cs",
+              "RelativeToolTip": "CommonHelper\\Constant\\BranchConstant.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T01:11:25.276Z"
+              "WhenOpened": "2024-08-27T02:42:37.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Learner.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\Models\\Entity\\Learner.cs",
+              "RelativeDocumentMoniker": "Models\\Entity\\Learner.cs",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\Models\\Entity\\Learner.cs",
+              "RelativeToolTip": "Models\\Entity\\Learner.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T01:40:02.381Z",
+              "EditorCaption": ""
             }
           ]
         },
