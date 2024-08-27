@@ -42,8 +42,7 @@
               "RelativeToolTip": "ViewComponents\\RenderViewComponent.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAcwBEAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T01:44:19.952Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-27T01:44:19.952Z"
             },
             {
               "$type": "Document",
@@ -55,8 +54,7 @@
               "RelativeToolTip": "Models\\Entity\\Learner.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T01:40:02.381Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-27T01:40:02.381Z"
             },
             {
               "$type": "Document",
@@ -66,7 +64,7 @@
               "RelativeDocumentMoniker": "Controllers\\LearnerController.cs",
               "ToolTip": "C:\\Users\\admin\\Downloads\\LaptrinhWeb\\LAB1\\Controllers\\LearnerController.cs",
               "RelativeToolTip": "Controllers\\LearnerController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAmwD4AAAApAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA+wCIAAABQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-27T01:12:05.465Z",
               "EditorCaption": ""
@@ -81,8 +79,7 @@
               "RelativeToolTip": "ViewComponents\\MajorViewComponent.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAUwAoAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T01:11:25.276Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-27T01:11:25.276Z"
             }
           ]
         },
